@@ -1,0 +1,20 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Your data: goals, notes, history and transcripts live here
+data/*
+!data/.gitkeep
+
+# Local design tool output
+.hallmark/

@@ -1,0 +1,31 @@
+:root {
+  --space-3xs: 2px; --space-2xs: 4px; --space-xs: 8px; --space-sm: 12px; --space-md: 16px; --space-lg: 24px; --space-xl: 40px; --space-2xl: 64px; --space-3xl: 96px; --space-4xl: 144px;
+  --text-xs: 0.75rem; --text-sm: 0.875rem; --text-md: 1rem; --text-lg: 1.2rem; --text-xl: 1.44rem; --text-2xl: 1.728rem; --text-3xl: 2.074rem;
+  --text-display-s: 1.44rem; --text-display: 1.728rem; --text-section: 1.2rem; --text-title: 1rem; --text-lead: 1rem;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1); --ease-in: cubic-bezier(0.7, 0, 0.84, 0); --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms; --dur-short: 220ms; --dur-long: 420ms;
+  --color-error: oklch(52% 0.19 27); --color-success: oklch(50% 0.12 150);
+  --container: 1760px; --gutter: 24px; --gap-columns: 32px; --section-gap-s: 120px; --section-gap: 144px; --section-gap-l: 176px;
+  --z-base: 1; --z-raised: 10; --z-dropdown: 100; --z-sticky: 200; --z-sticky-nav: 300; --z-modal: 400; --z-toast: 500; --z-tooltip: 600;
+  --color-paper: #fbfdfc; --color-paper-2: color-mix(in srgb, #10201a 5%, #fbfdfc); --color-paper-3: color-mix(in srgb, #10201a 10%, #fbfdfc);
+  --color-ink: #101a16; --color-ink-2: #25302b; --color-muted: #5a6762;
+  --color-rule: rgba(16, 32, 26, 0.11);
+  --color-accent: #0b7a5b; --color-accent-ink: #f5fbf8; --color-focus: #0b7a5b;
+  --color-primary: #0b7a5b; --color-primary-ink: #f5fbf8;
+  --color-scrim: rgba(8, 14, 12, 0.8); --color-on-scrim: #f5f9f7; --color-on-scrim-rule: rgba(245, 249, 247, 0.1);
+  --color-player: #0b100e; --color-field: color-mix(in srgb, #10201a 50%, #fbfdfc); --color-mark: color-mix(in srgb, #0b7a5b 15%, transparent);
+  --font-body: var(--font-figtree), Arial, sans-serif; --font-display: var(--font-body); --font-outlier: var(--font-body);
+  --radius-card: 12px; --radius-control: 8px; --radius-pill: 999px; --rule-hair: 1px; --shadow-card: none;
+  --tracking-display: 0; --display-weight: 700;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #0e1412; --color-paper-2: color-mix(in srgb, #f5fbf8 8%, #0e1412); --color-paper-3: #252d2a;
+    --color-ink: #f2f7f4; --color-ink-2: color-mix(in srgb, #f2f7f4 88%, #0e1412); --color-muted: #a9b5b0;
+    --color-rule: rgba(242, 247, 244, 0.11); --color-field: color-mix(in srgb, #f2f7f4 50%, #0e1412);
+    --color-accent: #3ecf9f; --color-accent-ink: #06231b; --color-mark: color-mix(in srgb, #3ecf9f 20%, transparent);
+    --color-focus: #3ecf9f; --color-primary: #3ecf9f; --color-primary-ink: #06231b;
+    --color-error: oklch(72% 0.17 27); --color-success: oklch(76% 0.13 150);
+    color-scheme: dark;
+  }
+}
